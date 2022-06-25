@@ -10,7 +10,7 @@ using namespace std;
 Solution:
 1. get two var on frsrt index i and cnt
 2. Check if the i index is a non zero value
-if it is then update then update the value with
+if it is then update the value with
 arr[ctn] = arr[i]; and then increase the counter
 3. If the arr[i] is a zero then just ignore and increase the i
 4. After the loop finishes just update all the indexes after

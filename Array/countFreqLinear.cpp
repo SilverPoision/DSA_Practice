@@ -7,6 +7,20 @@ being repeated. Count frequencies of all elements from 1 to n
 in Time Complexity O(n) and Space Complexity O(1) Asked in : :
  PayTm, VmWare, Amazon
 
+Solution:
+1.Check if the array largest ele is greater than n-1
+if yes the subtract all ele by 1 or by the diff in max ele and n
+2. Run a loop and check  if (arr[i] >= n)
+    {
+      int ele = arr[i] % n;
+      arr[ele] = arr[ele] + n; updating index
+    }
+    else
+    {
+      arr[arr[i]] = arr[arr[i]] + n; updating index
+    }
+3. Print the arr.
+
  T-Comp: O(N) S-Comp: O(1);
 */
 
