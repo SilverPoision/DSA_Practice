@@ -14,8 +14,6 @@ Solution:
 
 #define n 4
 
-pair<int, int> Pair;
-
 bool search(int mat[n][n], int key)
 {
   int i = 0, j = n - 1;
