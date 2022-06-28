@@ -29,7 +29,7 @@ int binarySearch(int array[], int low, int high, int key)
 int main(void)
 {
   int array[] = {2, 5, 6, 8, 9, 10};
-  int target = 0;
+  int target = 10;
 
   int n = sizeof(array) / sizeof(array[0]);
 
