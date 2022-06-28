@@ -16,6 +16,8 @@
     "initializer_list": "cpp",
     "regex": "cpp",
     "sstream": "cpp",
-    "*.tcc": "cpp"
+    "*.tcc": "cpp",
+    "thread": "cpp",
+    "ratio": "cpp"
   }
 }
