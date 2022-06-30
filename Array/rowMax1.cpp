@@ -1,6 +1,16 @@
 #include <iostream>
 using namespace std;
 
+/*
+A 2-D array of 1's and 0's is given. Find the row with max 1's
+in Time Complexity O(nlogn) and Space Complexity O(1) .
+The array is sorted row wise (all 0's in a row are followed by
+all 1's.
+
+Solution :
+apply binary search and just find the index and sub with M.
+*/
+
 #define M 5
 #define N 5
 

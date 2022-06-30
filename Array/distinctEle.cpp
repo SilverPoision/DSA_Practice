@@ -10,7 +10,9 @@ Time Complexity : O(n) and Space Complexity: O(n)
 Solution:
 Create an empty hash map. Let the hash map be hM.
 Initialize the count of distinct elements as dist_count to 0.
-Traverse through the first window and insert elements of the first window to hM. The elements are used as key and their counts as the value in hM. Also, keep updating dist_count
+Traverse through the first window and insert elements of the
+first window to hM. The elements are used as key and their
+counts as the value in hM. Also, keep updating dist_count
 Print distinct count for the first window.
 Traverse through the remaining array (or other windows).
 Remove the first element of the previous window.
