@@ -15,28 +15,29 @@ ele and then verify them.
 
 string removeDuplicates(string str)
 {
-  int *ascii = new int[256];
+  int ascii[256] = {0};
 
-  int length = sizeof(str) / sizeof(str[0]);
+  int length = str.length();
+  int i;
 
-  for (int i = 0; i < length; i++)
+  for (i = 0; i < length - 1; i++)
   {
-    if (ascii[int(str[i])] != -1)
+    if (ascii[str[i]] == 0)
     {
-      ascii[int(str[i])] = -1;
+      ascii[str[i]]++;
     }
-    else if (ascii[int(str[i])] == -1)
+    else if (ascii[str[i]] > 0)
     {
-      cout << "dd" << endl;
-      str.erase(i, 1);
+      str.erase(i);
     }
   }
+
   return str;
 }
 
 int main()
 {
-  string str("abacbc");
+  string str = "abacbc";
   string str1 = removeDuplicates(str);
   cout << str1 << endl;
   return 0;
