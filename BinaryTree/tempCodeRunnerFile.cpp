@@ -1,0 +1,1 @@
+cout << root->data << endl;
