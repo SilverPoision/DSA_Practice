@@ -23,7 +23,6 @@ struct Node
 };
 
 // in-place convert given Binary Tree to a Doubly Linked List
-bool first = true;
 Node *parent;
 void convert(Node *root, Node **head)
 {
