@@ -52,6 +52,7 @@ int findLCA(Node *root, int n1, int n2)
   int i;
   for (i = 0; i < path1.size() && i < path2.size(); i++)
   {
+    cout << path1[i] << " " << path2[i] << endl;
     if (path1[i] != path2[i])
       break;
   }
