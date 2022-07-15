@@ -71,7 +71,6 @@ void FrontBackSplit(Node *source, Node **a, Node **b)
     fast = fast->next->next;
     slow = slow->next;
   }
-
   *a = source;
   *b = slow->next;
   slow->next = NULL;
