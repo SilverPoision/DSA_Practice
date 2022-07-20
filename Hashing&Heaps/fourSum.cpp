@@ -1,6 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+Given an array  of n integers and an integer target, Find if there
+elements a, b, c, and d in integers present in array  such that
+a + b + c + d = target. Find unique quadruplets in the array which
+gives the sum of target Asked in : WalmartLabs
+*/
+
 typedef pair<int, int> Pair;
 
 // Function to check if four sum exists in an array with the given sum

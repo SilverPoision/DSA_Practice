@@ -1,6 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+Write an efficient algorithm to convert a given number into words. Asked in : Oracle,Amazon,Microsoft
+*/
+
 string one[] = {"", "one ", "two ", "three ", "four ",
                 "five ", "six ", "seven ", "eight ",
                 "nine ", "ten ", "eleven ", "twelve ",

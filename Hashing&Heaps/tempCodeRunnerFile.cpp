@@ -1,26 +1,7 @@
-string str = "";
-  // if (n <= 19)
+ // for (auto it : M)
   // {
-  //   str = one[n];
-  // }
-
-  // if (n > 19 && n < 100 && n % 10 != 0)
-  // {
-  //   str = ten[str1[0]] + one[str1[1]];
-  // }
-
-  // if (n % 10 == 0 && n < 99)
-  // {
-  //   str = ten[str1[0]];
-  // }
-
-  // if (n <= 999 && n > 99)
-  // {
-  //   int value = 3;
-  //   for (int i = 0; i <= value; i++)
+  //   for (auto j = it.second; j > 0; j--)
   //   {
-  //     str = str + " " + one[str[i]] + " " + hunds[value];
+  //     ans.push_back(it.first);
   //   }
   // }
-
-  // return str;
