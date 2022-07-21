@@ -7,43 +7,6 @@ int maze[N][N] = {{1, 0, 0, 0},
                   {1, 1, 0, 0},
                   {0, 1, 1, 1}};
 
-/*
-void findSolution(int i, int j)
-{
-  if (i == N - 1 && j == N - 1)
-  {
-    ans++;
-    return;
-  }
-  vistited[i][j] = true;
-
-  int newI = i + 1;
-  int newY = j;
-  if (newI < N && maze[newI][newY] == 1 && !vistited[newI][newY])
-  {
-    findSolution(newI, newY);
-  }
-  newI = i;
-  newY = j - 1;
-  if (newY < N && maze[newI][newY] == 1 && !vistited[newI][newY])
-  {
-    findSolution(newI, newY);
-  }
-  newI = i;
-  newY = j + 1;
-  if (newY < N && newY >= 0 && maze[newI][newY] == 1 && !vistited[newI][newY])
-  {
-    findSolution(newI, newY);
-  }
-  newI = i - 1;
-  newY = j;
-  if (newI < N && newI >= 0 && maze[newI][newY] == 1 && !vistited[newI][newY])
-  {
-    findSolution(newI, newY);
-  }
-  vistited[i][j] = false;
-}*/
-
 bool isSafe(int x, int y, bool visited[N][N])
 {
   if ((x >= 0 && x < N) && (y >= 0 && y < N) && maze[x][y] == 1 && !visited[x][y])
