@@ -44,7 +44,7 @@ string convertToWords(long n)
 {
   string out;
 
-  out += numToWords(((n / 10000000)), "crore");
+  out += numToWords(((n / 10000000) % 100), "crore");
   out += numToWords(((n / 100000) % 100), "lakh");
   out += numToWords(((n / 1000) % 100), "thousand");
   out += numToWords(((n / 100) % 10), "hundred");
