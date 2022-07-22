@@ -1,5 +1,3 @@
- // for (j = row; j >= 0; j--)
-  // {
-  //   if (board[col][j])
-  //     return false;
-  // }
+sol[r][c] = move;
+    // printSolution(sol);
+    // sol[r][c] = 0;
